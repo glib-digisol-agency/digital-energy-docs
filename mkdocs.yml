@@ -1,0 +1,36 @@
+site_name: Digital Energy
+site_url: http://localhost:3000/
+theme:
+  name: material
+  logo: assets/tokenlogo.png
+  favicon: assets/tokenlogo.png
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: indigo
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: light blue
+      accent: deep orange
+
+nav:
+  - Introduction: index.md            
+  - Staking Fundamentals: 
+    - Regular staking: nav/staking.md
+    - Liquid staking: nav/liquidStaking.md
+  - Yield generation:
+    - Base reward: nav/baseReward.md
+    - Additional yield: nav/additionalYield.md
+  - Validator metrics: nav/validatorMetrics.md
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
