@@ -20,16 +20,15 @@ theme:
         name: Light mode
       primary: light blue
       accent: deep orange
-
 nav:
   - Introduction: index.md            
   - Staking Fundamentals: 
-    - Regular staking: nav/staking.md
-    - Liquid staking: nav/liquidStaking.md
+    - Regular staking: staking.md
+    - Liquid staking: liquidStaking.md
   - Yield generation:
-    - Base reward: nav/baseReward.md
-    - Additional yield: nav/additionalYield.md
-  - Validator metrics: nav/validatorMetrics.md
+    - Base reward: baseReward.md
+    - Additional yield: additionalYield.md
+  - Validator metrics: validatorMetrics.md
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
